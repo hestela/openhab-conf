@@ -1,0 +1,1 @@
+Dimmer Hue_lamp1 "Bedroom Desk Light" (gBedRoom) { channel="hue:LWB014:010031e79dee:1:brightness" }

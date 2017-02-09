@@ -1,0 +1,4 @@
+sitemap default label="Default Sitemap"
+{
+  Slider item=Hue_lamp1 label="Bedroom Desk Light"
+}
