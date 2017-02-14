@@ -1,4 +1,5 @@
 sitemap default label="Default Sitemap"
 {
-  Slider item=Hue_lamp1 label="Bedroom Desk Light"
+  Switch item=Lights mappings=[OFF="All Off", ON="All On"]
+  Group item=gBR label="Bed Room"
 }

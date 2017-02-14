@@ -1,0 +1,5 @@
+// Groups
+Group gBR "Bed Room"  <bedroom>
+
+// Super Groups
+Group:Switch:OR(ON, OFF)  Lights  "All Lights [(%d)]"
