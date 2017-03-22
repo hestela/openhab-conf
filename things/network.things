@@ -1,0 +1,5 @@
+network:device:UnifiApLR [ hostname="192.168.2.39", port="0", retry="0", timeout="5000", refresh_interval="300000", use_system_ping="false", dhcplisten="true" ]
+network:device:smartframe [ hostname="192.168.2.68", port="0", retry="0", timeout="5000", refresh_interval="300000", use_system_ping="false", dhcplisten="true" ]
+network:device:hue [ hostname="192.168.2.47", port="0", retry="0", timeout="5000", refresh_interval="300000", use_system_ping="false", dhcplisten="true" ]
+network:device:nas [ hostname="192.168.1.40", port="0", retry="0", timeout="5000", refresh_interval="300000", use_system_ping="false", dhcplisten="true" ]
+network:device:unific [ hostname="127.0.0.1", port="8080", retry="0", timeout="5000", refresh_interval="300000", use_system_ping="false", dhcplisten="true" ]

@@ -1,5 +1,17 @@
-sitemap default label="Default Sitemap"
+sitemap default label="Home Dashboard"
 {
   Switch item=Lights mappings=[OFF="All Off", ON="All On"]
   Group item=gBR label="Bed Room"
+  Frame label="Network" icon=network {
+    Text item=net_up_APLR icon=switch label="AP-LR up [%s]"
+    Text item=net_ms_APLR icon=clock label="AP-LR Response Time [%.2f ms]"
+    Text item=net_up_sframe icon=switch label="SmartFrame up [%s]"
+    Text item=net_ms_sframe icon=clock label="SmartFrame Response Time [%.2f ms]"
+    Text item=net_up_hue icon=switch label="Philips Hue up [%s]"
+    Text item=net_ms_hue icon=clock label="Philips Hue Time [%.2f ms]"
+    Text item=net_up_NAS icon=switch label="NAS up [%s]"
+    Text item=net_ms_NAS icon=clock label="NAS Response Time [%.2f ms]"
+    Text item=net_up_unific icon=switch label="UniFi controller up [%s]"
+    Text item=net_ms_unific icon=clock label="UniFi controller Response Time [%.2f ms]"
+  }
 }

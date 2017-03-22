@@ -1,5 +1,8 @@
 // Groups
 Group gBR "Bed Room"  <bedroom>
+Group gLR "Living Room" <livingroom>
+Group gKT "Kitchen" <kitchen>
+Group Network "Network" <network>
 
 // Super Groups
 Group:Switch:OR(ON, OFF)  Lights  "All Lights [(%d)]"
