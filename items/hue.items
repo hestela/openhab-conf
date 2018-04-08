@@ -1,7 +1,7 @@
 // Main room lamp
-Dimmer Hue_lamp0_dimmer "Bedroom Main Light" (gBR, Lights) label="main" { channel="hue:LWB014:010031e79dee:1:brightness" }
-Switch Hue_lamp0_switch "Bedroom Main Light" (gBR, Lights) { channel="hue:LWB014:010031e79dee:1:switch" }
+Dimmer Hue_lamp0_dimmer "Bedroom Main Light" (gBR, Lights) label="main" { channel="hue:0100:0017882f9676:1:brightness" }
+Switch Hue_lamp0_switch "Bedroom Main Light" (gBR, Lights) { channel="hue:0100:0017882f9676:1:switch" }
 
 // Nightstand
-Dimmer Hue_lamp1_dimmer "Bedroom Nightstand Light" (gBR, Lights) { channel="hue:LWB014:010031e79dee:2:brightness" }
-Switch Hue_lamp1_switch "Bedroom Nightstand Light" (gBR, Lights) { channel="hue:LWB014:010031e79dee:2:switch" }
+Dimmer Hue_lamp1_dimmer "Bedroom Nightstand Light" (gBR, Lights) { channel="hue:0100:0017882f9676:2:brightness" }
+Switch Hue_lamp1_switch "Bedroom Nightstand Light" (gBR, Lights) { channel="hue:0100:0017882f9676:2:switch" }

@@ -1,14 +1,16 @@
-Switch net_up_APLR "AP-LR online" (gLR, Network) { channel="network:device:UnifiApLR:online" }
-Number net_ms_APLR "AP-LR lat" (gLR, Network)    { channel="network:device:UnifiApLR:time" }
+Switch net_up_APLR "AP-LR online" <switch> (gLR, Network) { channel="network:device:UnifiApLR:online" }
+Number net_ms_APLR "AP-LR lat" <clock> (gLR, Network)     { channel="network:device:UnifiApLR:time" }
 
-Switch net_up_sframe "smartframe online" (gKT, Network) { channel="network:device:smartframe:online" }
-Number net_ms_sframe "smartframe lat" (gKT, Network)    { channel="network:device:smartframe:time" }
+Switch net_up_sframe "smartframe online" <switch> (gKT, Network) { channel="network:device:smartframe:online" }
+Number net_ms_sframe "smartframe lat" <clock> (gKT, Network)     { channel="network:device:smartframe:time" }
 
-Switch net_up_hue "hue online" (gBR, Network) { channel="network:device:hue:online" }
-Number net_ms_hue "hue lat" (gBR, Network)    { channel="network:device:hue:time" }
+Switch net_up_hue "hue online" <switch> (gBR, Network) { channel="network:device:huenet:online" }
+Number net_ms_hue "hue lat" <clock> (gBR, Network)     { channel="network:device:huenet:time" }
 
-Switch net_up_NAS "NAS online" (gLR, Network) { channel="network:device:nas:online" }
-Number net_ms_NAS "NAS lat" (gLR, Network)    { channel="network:device:nas:time" }
+Switch net_up_NAS "NAS online" <switch> (gLR, Network) { channel="network:device:nas:online" }
+Number net_ms_NAS "NAS lat" <clock> (gLR, Network)     { channel="network:device:nas:time" }
 
-Switch net_up_unific "unifi online" (gLR, Network) { channel="network:device:unific:online" }
-Number net_ms_unific "unifi lat" (gLR, Network)    { channel="network:device:unific:time" }
+Switch net_up_unific "unifi online" <switch> (gLR, Network) { channel="network:device:unific:online" }
+Number net_ms_unific "unifi lat" <clock> (gLR, Network)     { channel="network:device:unific:time" }
+
+Switch net_desktop "Henry's Computer" (Status, Network, gBR) { wol="192.168.2.53#AC:9E:17:B8:D6:D2" }
